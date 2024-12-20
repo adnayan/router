@@ -1,0 +1,58 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+/composer.phar
+
+# PHPStorm project files
+/.idea/
+
+# Laravel or Symfony logs and caches
+/storage/logs/
+/storage/framework/cache/
+/bootstrap/cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache and temporary files
+*.log
+*.cache
+*.temp
+*.tmp
+*.bak
+*.swp
+/.DS_Store
+
+# PHPUnit result cache
+.phpunit.result.cache
+
+# Node.js dependencies (if using frontend assets)
+node_modules/
+/yarn.lock
+/package-lock.json
+
+# Local server-specific files
+Homestead.yaml
+Homestead.json
+.vagrant/
+
+# Backup files created by editors
+*~
+*.bak
+*.orig
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# JetBrains IDE specific
+.idea/
+*.iml
+
+# PHPStan / Psalm
+phpstan.neon
+phpstan.neon.dist
+psalm.xml
+psalm.xml.dist

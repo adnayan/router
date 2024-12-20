@@ -1,0 +1,19 @@
+{
+    "name": "nayan/router",
+    "description": "A minimalistic routing library.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nayan\\Router\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nayan Adhikari",
+            "email": "adnayan@hotmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "^3.0"
+    }
+}
